@@ -5,8 +5,6 @@ on:
     branches:
       - 'master'
       - 'dev/*'
-    paths:
-      - 'apps/baz/**'
 
 env:
   IMAGE: docker.pkg.github.com/${{ github.repository }}/baz:${{ github.sha }}
