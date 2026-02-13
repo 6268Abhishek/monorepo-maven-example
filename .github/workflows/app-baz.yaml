@@ -37,6 +37,8 @@ jobs:
           docker login docker.pkg.github.com -u ${GITHUB_REPOSITORY} -p ${GITHUB_TOKEN}
           docker push ${IMAGE}
 
+test error 
+
 # We had a custom GitHub Action to deploy to our Kubernetes cluster.
 # Examples:
 #
