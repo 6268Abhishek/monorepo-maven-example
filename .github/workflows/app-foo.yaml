@@ -5,8 +5,7 @@ on:
     branches:
       - 'master'
       - 'dev/*'
-    paths:
-      - 'apps/foo/**'
+  
 
 env:
   IMAGE: docker.pkg.github.com/${{ github.repository }}/foo:${{ github.sha }}
