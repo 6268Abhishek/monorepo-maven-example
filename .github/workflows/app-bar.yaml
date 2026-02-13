@@ -5,8 +5,7 @@ on:
     branches:
       - 'master'
       - 'dev/*'
-    paths:
-      - 'apps/bar/**'
+    
 
     #test
 env:
