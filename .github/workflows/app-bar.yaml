@@ -8,6 +8,7 @@ on:
     paths:
       - 'apps/bar/**'
 
+    #test
 env:
   IMAGE: docker.pkg.github.com/${{ github.repository }}/bar:${{ github.sha }}
 
